@@ -24,3 +24,7 @@ Genera el Bounding Box (cuadro delimitador) de un sketch (boceto) en otro boceto
 18. Selecciona la macro de la izquierda y pulsa la flecha a la derecha "-->" y verás que pasa la macro a la barra creada.
 19. Pincha en "Cerrar" en todas las ventanas.
 20. Aunque el proceso está hecho, es posible que no veas el icono de la barra hasta que cambies de banco de trabajo o reinicies FreeCAD.
+
+### Funcionamiento
+
+Selecciona un sketch (boceta) y ejecuta la macro (o pulsa el icono asociado a él). Se creará un nuevo sketch con un rectángulo demilimitador de la forma del boceto seleccionado.
