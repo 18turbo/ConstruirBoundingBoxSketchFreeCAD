@@ -7,7 +7,7 @@ Genera el Bounding Box (cuadro delimitador) de un sketch (boceto) en otro boceto
 **NOTA:** Para saber la carpeta "macros" de tu FreeCAD, ve a **Editar --> Preferencias**. Luego pincha en la izquierda "General". Después pincha en la pestaña Macros y mira "Ruta de la macro".
 2. Abre FreeCAD (si no lo has hecho). En el menú superior, pincha en **Macro --> Macros...**
 3. En la ventana que aparece, pincha en el botón de la derecha "Crear"
-4. Pon un nombre para la macro, por ejemplo: "COnstrucciónBoundingBox", y pincha en Aceptar.
+4. Pon un nombre para la macro, por ejemplo: "ConstrucciónBoundingBox", y pincha en Aceptar.
 5. Aparecerá una pestaña de FreeCAD en blanco.
 6. Copia el contenido del fichero **ConstruirBoundingBox_0.0.2_BETA..FCMacro** y peǵalo a la ventana en blanco. Para hacerlo, abre el fichero con cualquier editor de texto, selecciona TODO, cópialo con CTRL-C y pégalo en el documento en blanco con CTRL-V
 7. Pincha en **Archivo --> Guardar**
