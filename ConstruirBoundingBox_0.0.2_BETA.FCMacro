@@ -24,8 +24,7 @@ if (len(objetosSeleccionados) == 1) and (objetosSeleccionados[0].Name.find('Sket
     #Crear Nuevo Sketch
     nombreBocetoOriginal = objetosSeleccionados[0].Name
     nombreBocetoBB = objetosSeleccionados[0].Label + "(BoundBox)"
-    f = App.activeDocument().addObject('Sketcher::SketchObject', nombreBocetoBB)
-    App.Console.PrintMessage(f)
+    f = App.activeDocument().addObject('Sketcher::SketchObject', nombreBocetoBB
     f.Placement.Rotation = App.ActiveDocument.getObject(nombreBocetoOriginal).Placement.Rotation
     App.activeDocument().Sketch.MapMode = "Deactivated"
     xmin = App.ActiveDocument.getObject(nombreBocetoOriginal).Shape.BoundBox.XMin
@@ -49,7 +48,6 @@ if (len(objetosSeleccionados) == 1) and (objetosSeleccionados[0].Name.find('Sket
         ymin = zmin
         ymax = zmax
 
-    App.Console.PrintMessage("Puntos: \nminX:" +str(xmin) + "\nmaxX:" + str(xmax) + "\nminY:" + str(ymin) + "\nmaxY:" + str(ymax) + " @ ")
     geoList.append(Part.LineSegment(App.Vector(xmin,ymax,0),App.Vector(xmax,ymax,0)))
     geoList.append(Part.LineSegment(App.Vector(xmax,ymax,0),App.Vector(xmax,ymin,0)))
     geoList.append(Part.LineSegment(App.Vector(xmax,ymin,0),App.Vector(xmin,ymin,0)))
