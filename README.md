@@ -27,4 +27,4 @@ Genera el Bounding Box (cuadro delimitador) de un sketch (boceto) en otro boceto
 
 ### Funcionamiento
 
-Selecciona un sketch (boceta) y ejecuta la macro (o pulsa el icono asociado a él). Se creará un nuevo sketch con un rectángulo demilimitador de la forma del boceto seleccionado.
+Selecciona un sketch (boceto) y ejecuta la macro (o pulsa el icono asociado a él). Se creará un nuevo sketch con un rectángulo demilimitador de la forma del boceto seleccionado.
